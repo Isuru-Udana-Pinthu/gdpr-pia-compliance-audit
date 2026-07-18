@@ -1,36 +1,57 @@
-# Scenario-Based GDPR Privacy Impact Assessment (PIA) & Compliance Audit
+# 🛡️ GDPR Privacy Impact Assessment (PIA) & Compliance Audit
 
-> **Note:** This project is a simulated GRC (Governance, Risk, and Compliance) assessment designed to demonstrate practical skills in privacy analysis, risk evaluation, and regulatory compliance documentation.
+![GDPR](https://img.shields.io/badge/Compliance-GDPR-blue.svg) ![Risk Management](https://img.shields.io/badge/Domain-GRC%20%26%20Risk%20Management-success.svg) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 
-## 📌 Project Overview
-This project presents a formal compliance evaluation for **MediLink Online Clinic**, a fictional telehealth platform offering virtual medical services to residents of the European Union (EU).
+> **Disclaimer:** This is a simulated Governance, Risk, and Compliance (GRC) project developed for portfolio demonstration. It simulates a real-world privacy audit and risk assessment environment.
 
-MediLink processes highly sensitive Personally Identifiable Information (PII)—including medical histories, prescriptions, and payment details—making strict adherence to the **General Data Protection Regulation** (GDPR) essential. The assessment focuses on identifying privacy risks, evaluating compliance gaps, and proposing remediation strategies aligned with GDPR requirements.
+## 📌 Executive Summary
+This project outlines a comprehensive **Privacy Impact Assessment (PIA)** and **Gap Analysis** conducted for **MediLink Online Clinic**, a fictional telehealth platform providing virtual medical consultations to European Union (EU) residents. 
 
-## 🎯 Objectives
-* **Conduct a Gap Analysis:** Review MediLink’s data processing, storage architecture (AWS), and third‑party integrations against standard GDPR controls.
-* **Risk Management:** Identify privacy risks, categorize them by severity, and document them in a structured Risk Register.
-* **Remediation Planning:** Provide actionable recommendations to address compliance gaps, such as implementing automated deletion workflows and establishing Data Processing Agreements (DPAs).
-* **Documentation:**  Create a professional Privacy Impact Assessment (PIA) report suitable for technical, legal, and leadership stakeholders.
+Due to the collection and processing of highly sensitive Personally Identifiable Information (PII) and Protected Health Information (PHI), MediLink falls under the strict regulatory obligations of the **General Data Protection Regulation (GDPR)**. This project demonstrates the ability to evaluate technical architectures, identify compliance gaps, and translate regulatory requirements into pragmatic, business-friendly recommendations.
 
-## 🛠️ Tools & Technologies Used
-* **Documentation & Reporting:** Google Workspace (Docs, Sheets)
-* **Version Control & Project Hub:** GitHub
-* **Project Management:** Notion (Kanban, Effort Estimation)
-* **Frameworks/Standards:** GDPR (Articles 4, 6, 9, 32, 44)
+## 🏗️ System Architecture & Data Flow
+Understanding the technical landscape is critical for an accurate risk assessment. MediLink's infrastructure was analyzed as follows:
+* **Hosting & Storage:** Primary data hosted in AWS EU-Central (Frankfurt) with backups in AWS EU-West (Ireland).
+* **Database:** PostgreSQL (Encrypted at rest).
+* **File Storage:** AWS S3 with Server-Side Encryption (SSE-KMS) for medical records and prescriptions.
+* **Third-Party Sub-processors:** 
+  * *Stripe* (Payment Gateway)
+  * *Twilio* (Video Conferencing API)
+  * *SendGrid* (Email Communications)
 
-## 📂 Project Deliverables
+## ⚖️ Regulatory Scope (GDPR)
+The assessment focused on evaluating MediLink's controls against the following key GDPR Articles:
+* **Article 5:** Principles relating to processing of personal data (Data Minimization, Storage Limitation).
+* **Article 6 & 9:** Lawfulness of processing and conditions for processing special categories of data (Medical Data).
+* **Article 17:** Right to erasure ('Right to be forgotten').
+* **Article 32:** Security of processing (Technical and organizational measures).
+* **Article 44:** General principle for international data transfers.
 
-| Deliverable | Description | Link |
-|-------------|-------------|------|
-| **1. PIA Formal Report** | A comprehensive PDF report detailing data flows, identified gaps, and remediation steps. | `[Link to PDF will be added here]` |
-| **2. Risk Register** | A Google Sheets dashboard tracking risks, priority levels, and mitigation statuses. | `[Link to Google Sheets will be added here]` |
+## 🛠️ Audit Methodology & Approach
+To simulate an industry-standard audit workflow, the following methodology was executed:
+1. **Scope Definition & Data Mapping:** Identified all data ingestion points, storage repositories, and cross-border data transfers.
+2. **Control Evaluation (Evidence Gathering):** Assessed current technical and administrative controls against a standard GDPR compliance checklist.
+3. **Gap Analysis:** Identified discrepancies between regulatory requirements and current operational practices.
+4. **Risk Assessment:** Logged findings into a Risk Register, categorizing vulnerabilities based on likelihood and business impact (High/Medium/Low).
+5. **Remediation Planning:** Developed actionable, risk-based recommendations balancing regulatory compliance with operational agility.
 
-## 🚀 Methodology
-1. **Scenario Definition:** Mapped the data lifecycle, including collection (Account creation), storage (AWS PostgreSQL/S3), and third-party processing (Stripe, Twilio).
-2. **Standard Selection:** Utilized standard GDPR compliance checklists (Lawful Basis, Consent, Data Minimization, Storage Limitation).
-3. **Assessment:** Identified critical gaps such as manual deletion processes and missing Data Processing Agreements with vendors.
-4. **Reporting:** Translated technical vulnerabilities into business-focused recommendations.
+## 📂 Project Deliverables & Artifacts
+
+| Deliverable | Description | Access Link |
+|-------------|-------------|-------------|
+| **📄 Formal PIA Report** | A detailed 3-page executive report documenting data purposes, identified gaps, and prioritized recommendations. | `[Insert PDF Link Here]` |
+| **📊 Risk & Compliance Register** | A dynamic spreadsheet logging risks, control failures, and remediation tracking dashboards. | `[Insert Google Sheets Link Here]` |
+| **📋 Project Management Board** | Kanban-based tracking of audit tasks and effort estimation. | `[Insert Notion Board Link Here]` |
+
+## 🔍 Key Findings (Preview)
+* **[High Risk] Storage Limitation:** Absence of automated data deletion workflows, increasing the risk of unauthorized retention of non-medical PII.
+* **[High Risk] Third-Party Risk Management:** Missing formalized Data Processing Agreements (DPAs) with critical vendors (Stripe, Twilio).
+* **[Medium Risk] Data Minimization:** Unnecessary optional fields collected during the initial account creation phase.
+
+## 💡 Technologies & Tools Utilized
+* **Frameworks:** GDPR, Privacy by Design principles.
+* **Documentation & Dashboards:** Google Workspace (Docs, Sheets) for evidence documentation and risk tracking.
+* **Project Management:** Notion, GitHub (Version Control & Markdown reporting).
 
 ---
-*Project created by Isuru Pinthu*
+*Authored by Isuru Udana Pintu | GRC & Cybersecurity Portfolio Project*
