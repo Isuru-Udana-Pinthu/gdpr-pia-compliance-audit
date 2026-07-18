@@ -1,17 +1,17 @@
 # Scenario-Based GDPR Privacy Impact Assessment (PIA) & Compliance Audit
 
-> **Note:** This is a simulated GRC (Governance, Risk, and Compliance) portfolio project designed to demonstrate practical skills in privacy assessments, risk management, and regulatory compliance.
+> **Note:** This project is a simulated GRC (Governance, Risk, and Compliance) assessment designed to demonstrate practical skills in privacy analysis, risk evaluation, and regulatory compliance documentation.
 
 ## 📌 Project Overview
-This project simulates a formal compliance assessment for **MediLink Online Clinic**, a fictional telehealth platform providing virtual medical services to European Union (EU) residents. 
+This project presents a formal compliance evaluation for **MediLink Online Clinic**, a fictional telehealth platform offering virtual medical services to residents of the European Union (EU).
 
-Because MediLink processes highly sensitive Personally Identifiable Information (PII)—including medical histories, prescriptions, and payment data—the organization is legally required to implement strict privacy controls under the **General Data Protection Regulation (GDPR)**.
+MediLink processes highly sensitive Personally Identifiable Information (PII)—including medical histories, prescriptions, and payment details—making strict adherence to the **General Data Protection Regulation** (GDPR) essential. The assessment focuses on identifying privacy risks, evaluating compliance gaps, and proposing remediation strategies aligned with GDPR requirements.
 
 ## 🎯 Objectives
-* **Conduct a Gap Analysis:** Evaluate current data processing and storage practices (AWS architecture) against standard GDPR requirements.
-* **Risk Management:** Identify privacy risks, categorize them by business impact, and document them in a formal Risk Register.
-* **Remediation Planning:** Provide actionable, business-friendly recommendations to bridge compliance gaps (e.g., implementing automated deletion workflows, drafting DPAs).
-* **Documentation:** Produce a formal Privacy Impact Assessment (PIA) report suitable for leadership and legal teams.
+* **Conduct a Gap Analysis:** Review MediLink’s data processing, storage architecture (AWS), and third‑party integrations against standard GDPR controls.
+* **Risk Management:** Identify privacy risks, categorize them by severity, and document them in a structured Risk Register.
+* **Remediation Planning:** Provide actionable recommendations to address compliance gaps, such as implementing automated deletion workflows and establishing Data Processing Agreements (DPAs).
+* **Documentation:**  Create a professional Privacy Impact Assessment (PIA) report suitable for technical, legal, and leadership stakeholders.
 
 ## 🛠️ Tools & Technologies Used
 * **Documentation & Reporting:** Google Workspace (Docs, Sheets)
