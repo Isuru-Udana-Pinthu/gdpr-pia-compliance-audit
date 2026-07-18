@@ -1,4 +1,4 @@
-# 📋 GDPR Compliance Audit Checklist
+#  GDPR Compliance Audit Checklist
 
 ## Assessment Overview
 This framework was utilized during the **Control Evaluation (Phase 2)** of the MediLink Online Clinic audit. It maps current technical and administrative practices against the core requirements of the General Data Protection Regulation (GDPR). 
