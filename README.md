@@ -39,7 +39,7 @@ To simulate an industry-standard audit workflow, the following methodology was e
 
 | Deliverable | Description | Access Link |
 |-------------|-------------|-------------|
-| **📄 Formal PIA Report** | A detailed 3-page executive report documenting data purposes, identified gaps, and prioritized recommendations. | [04-PIA-Report] |
+| **📄 Formal PIA Report** | A detailed 3-page executive report documenting data purposes, identified gaps, and prioritized recommendations. | [[04-PIA-Report](https://github.com/Isuru-Udana-Pinthu/gdpr-pia-compliance-audit/tree/88d2c8c41c55861c334f3dfad962838b07494f31/04-PIA-Report)] |
 | **📊 Risk & Compliance Register** | A dynamic spreadsheet logging risks, control failures, and remediation tracking dashboards. | [https://docs.google.com/spreadsheets/d/1xe2ddA3EoritDChltQW__UI19VvOTL-nQAUFZRwNG9s/edit?usp=sharing] |
 | **📋 Project Management Board** | Kanban-based tracking of audit tasks and effort estimation. | [https://app.notion.com/p/GDPR-Scenario-Based-Privacy-Impact-Assessment-PIA-383917282f638071b113c9a70c8f9c75?source=copy_link] |
 
