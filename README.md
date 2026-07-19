@@ -39,9 +39,9 @@ To simulate an industry-standard audit workflow, the following methodology was e
 
 | Deliverable | Description | Access Link |
 |-------------|-------------|-------------|
-| **📄 Formal PIA Report** | A detailed 3-page executive report documenting data purposes, identified gaps, and prioritized recommendations. | `[Insert PDF Link Here]` |
-| **📊 Risk & Compliance Register** | A dynamic spreadsheet logging risks, control failures, and remediation tracking dashboards. | `[Insert Google Sheets Link Here]` |
-| **📋 Project Management Board** | Kanban-based tracking of audit tasks and effort estimation. | `[Insert Notion Board Link Here]` |
+| **📄 Formal PIA Report** | A detailed 3-page executive report documenting data purposes, identified gaps, and prioritized recommendations. | [04-PIA-Report] |
+| **📊 Risk & Compliance Register** | A dynamic spreadsheet logging risks, control failures, and remediation tracking dashboards. | [https://docs.google.com/spreadsheets/d/1xe2ddA3EoritDChltQW__UI19VvOTL-nQAUFZRwNG9s/edit?usp=sharing] |
+| **📋 Project Management Board** | Kanban-based tracking of audit tasks and effort estimation. | [https://app.notion.com/p/GDPR-Scenario-Based-Privacy-Impact-Assessment-PIA-383917282f638071b113c9a70c8f9c75?source=copy_link] |
 
 ## 🔍 Key Findings (Preview)
 * **[High Risk] Storage Limitation:** Absence of automated data deletion workflows, increasing the risk of unauthorized retention of non-medical PII.
