@@ -54,4 +54,4 @@ To simulate an industry-standard audit workflow, the following methodology was e
 * **Project Management:** Notion, GitHub (Version Control & Markdown reporting).
 
 ---
-*Authored by Isuru Udana Pintu | GRC & Cybersecurity Portfolio Project*
+*Authored by Isuru Udana Pintu | GRC & Cybersecurity Portfolio Project.*
